@@ -1,0 +1,65 @@
+{
+  "width": 1080,
+  "height": 1080,
+  "fps": 30,
+  "frames": 1500,
+  "duration_seconds": 50,
+  "codec": "h264",
+  "pixel_format": "yuv420p",
+  "color": "BT709 limited",
+  "faststart": true,
+  "audio": false,
+  "sha256": "e05c361c2aa3e5b337529d21c9e51e99f2fa72e0d0100e75c4d470ad7b55fd54",
+  "bytes": 17257502,
+  "all_png_crc_pass": true,
+  "full_decode_pass": true,
+  "regular_pts": true,
+  "full_orbit_40s_360_degrees": true,
+  "same_start_end_position": true,
+  "source_A2_unchanged": true,
+  "native_scene_unchanged": true,
+  "visual_review": "PASS_WITH_ACCEPTED_A2_LIMITATIONS",
+  "realtime_player_review": "NOT_OBSERVED",
+  "compression_checks": [
+    {
+      "frame": 1,
+      "MAE": 0.6057752966880798,
+      "PSNR_dB": 46.35931206524922
+    },
+    {
+      "frame": 301,
+      "MAE": 0.7058616280555725,
+      "PSNR_dB": 44.210992834036105
+    },
+    {
+      "frame": 601,
+      "MAE": 0.7614840269088745,
+      "PSNR_dB": 44.63068059403419
+    },
+    {
+      "frame": 901,
+      "MAE": 0.801434338092804,
+      "PSNR_dB": 43.52144239377604
+    },
+    {
+      "frame": 1201,
+      "MAE": 0.685233473777771,
+      "PSNR_dB": 45.156763194427604
+    },
+    {
+      "frame": 1246,
+      "MAE": 1.1670056581497192,
+      "PSNR_dB": 40.36269689053418
+    },
+    {
+      "frame": 1291,
+      "MAE": 0.7797959446907043,
+      "PSNR_dB": 44.71752283944789
+    },
+    {
+      "frame": 1500,
+      "MAE": 0.8335893750190735,
+      "PSNR_dB": 43.60319486783915
+    }
+  ]
+}

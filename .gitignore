@@ -1,0 +1,25 @@
+# Only documentation, configuration and original tools belong in Git.
+assets/*
+!assets/README.md
+output/
+private_audit/
+assets_private/
+*.blend
+*.blend1
+*.glb
+*.gltf
+*.fbx
+*.obj
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mov
+*.zip
+*.log
+*.jsonl
+.env*
+__pycache__/
+*.pyc
+.DS_Store

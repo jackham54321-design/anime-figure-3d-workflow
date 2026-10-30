@@ -1,0 +1,99 @@
+{
+  "recorded_at": "2026-10-28 to 2026-10-29",
+  "service_region": "cn",
+  "cli_version": "0.7.2",
+  "reference": {
+    "width": 1122,
+    "height": 1402,
+    "bytes": 2163816,
+    "sha256": "ee8d0bd677a2544e970970315b7c3520119567ab522ca9e0090ae246701c780e"
+  },
+  "geometry": {
+    "method": "POST",
+    "path": "/v3/generation/image-to-model",
+    "cli_model_alias": "tripo-v3.1",
+    "payload": {
+      "input": "<authorized_reference_upload>",
+      "model": "v3.1-20260211",
+      "geometry_quality": "detailed",
+      "texture": false,
+      "pbr": false,
+      "quad": false,
+      "smart_low_poly": false,
+      "generate_parts": false,
+      "enable_image_autofix": false,
+      "model_seed": 20261028
+    },
+    "actual_credits": 40,
+    "face_limit": "omitted"
+  },
+  "texture": {
+    "method": "POST",
+    "path": "/v3/models/texture",
+    "execution": "official REST via existing official client authentication transport; not a successful CLI v3.5 dry-run",
+    "payload": {
+      "input": "<accepted_geometry_task>",
+      "model": "v3.5-20260815",
+      "texture_quality": "extreme",
+      "pbr": true,
+      "texture_alignment": "original_image",
+      "delight": true,
+      "texture_seed": 20261028,
+      "texture_prompt": {
+        "image": "<authorized_reference_upload>"
+      }
+    },
+    "actual_credits": 30
+  },
+  "actual_total_credits": 70,
+  "automatic_rerolls": 0,
+  "additional_paid_processing": 0,
+  "renderer": {
+    "blender": "5.2.3 LTS",
+    "engine": "EEVEE",
+    "backend": "Metal",
+    "device": "Apple M5",
+    "samples": 64,
+    "resolution": [
+      1080,
+      1080
+    ],
+    "fps": 30,
+    "frames": 1500,
+    "duration_s": 50,
+    "full_body_orbit_s": 40,
+    "push_in_s": 3,
+    "face_display_s": 7,
+    "depth_of_field": false,
+    "motion_blur": false,
+    "frame_format": "RGB8 PNG"
+  },
+  "encoder": {
+    "ffmpeg": "9.0.1",
+    "codec": "libx264",
+    "crf": 16,
+    "preset": "medium",
+    "pixel_format": "yuv420p",
+    "color": "BT.709 limited",
+    "faststart": true,
+    "audio": false
+  },
+  "source_triangle_count": 1963301,
+  "source_vertex_count": 1027835,
+  "texture_sizes": {
+    "base_color": [
+      8192,
+      8192
+    ],
+    "normal": [
+      4096,
+      4096
+    ],
+    "metallic_roughness": [
+      4096,
+      4096
+    ]
+  },
+  "A2_export_glb_exists": false,
+  "source_ids_policy": "Service task IDs, Library IDs, upload tokens, balances, account details and signed URLs are omitted from public records."
+}
