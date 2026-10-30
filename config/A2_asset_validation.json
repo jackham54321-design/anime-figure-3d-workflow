@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-30",
+  "native": "PASS: reopened; protected geometry/UV/corner normals/material values and packed bytes unchanged",
+  "glb": "ACCEPTED_AS_VIEWING_EXCHANGE_WITH_DECLARED_NORMAL_PRECISION_LIMIT",
+  "authoritative_editable_asset": "model/Maple_Swordswoman_A2.blend",
+  "strict_normal_equality": "FAIL; original raw/roundtrip reports retained without changing thresholds",
+  "export_normal_max_degrees": 0.0048098350549442784,
+  "blender_reimport_normal_max_degrees": 0.1027083985806023,
+  "geometry_world_position_max_error": 0.0,
+  "uv_max_error": 0.0,
+  "source_vertices": 1027835,
+  "reimport_vertices": 1087450,
+  "triangles": 1963301,
+  "material_triangle_counts": [
+    1953808,
+    9370,
+    123
+  ],
+  "encoded_images_byte_identical": 7,
+  "visual_review": {
+    "actually_viewed": [
+      "full_three_way.png",
+      "face_detail_100percent.png",
+      "sword_detail_100percent.png"
+    ],
+    "columns": [
+      "source",
+      "sanitized native",
+      "reimported GLB"
+    ],
+    "views": [
+      "frame 1 full body",
+      "frame 1500 face"
+    ],
+    "finding": "No apparent new shape, color, seam or detail degradation in these views. Existing brow ridge/ear fusion/collar limitations remain.",
+    "native_face_exact_pixels": true,
+    "native_full_one_pixel_one_level_difference": true,
+    "glb_face_pixels_with_channel_error_over_8": 14,
+    "glb_face_max_channel_error_8bit": 21,
+    "scope": "Two actual 1080-square views and native-resolution face/sword crops; not every engine, angle, printing or rigging."
+  },
+  "no_source_asset_modified": true,
+  "no_video_rerender_or_reencode": true
+}

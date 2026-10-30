@@ -1,18 +1,13 @@
-# 本地真实资产库存
+# A2发布资产
 
-下表为未公开的原始候选。SHA256对应未脱敏源副本；将来若清理.blend元数据，发布副本需另记新哈希。A2包含7张已打包图像，无外链Blend库；其中4张修复纹理也保留外部文件。V4完整回滚仍保留在本地，不作为本次默认公开附件。
+已从真实已接受A2生成独立脱敏副本和GLB，完成复开、干净重导入、几何/UV/贴图及实际渲染对照。附件在本地准备完成，尚未上传Release；Git历史只含文档与源码。
 
-| 候选文件 | 字节 | 用途 |
+| 文件 | 字节 | 用途 |
 |---|---:|---|
-| `A2_360_face_1080_50s.mp4` | 17,257,502 | 最终真实模型展示视频 |
-| `maple_p3_chin_A2.blend` | 248,740,795 | 已接受的可编辑A2；不是原始Tripo供体 |
-| `A2_360_face_50s.blend` | 248,843,303 | 完整相机动画和外部摄影场景 |
-| `source_geometry.glb` | 56,451,816 | 原始无贴图供体；不是A2 |
-| `source_textured.glb` | 79,705,056 | 原始PBR供体；不含V1–V4/A2局部修复 |
-| `reference_P3.png` | 2,163,816 | 原始用户母图，未经裁切或增强 |
-| `textures/base_color_A2.png` | 63,516,291 | A2隔离下巴材质底色 |
-| `textures/normal_A1.png` | 4,753,467 | A2隔离下巴材质法线 |
-| `textures/base_color_v4.png` | 63,516,290 | V4主要底色；被A2引用 |
-| `textures/normal_local_v4.png` | 4,753,476 | V4局部修正法线；被A2引用 |
+| `model/Maple_Swordswoman_A2.blend` | 339,423,441 | 权威A2，7张打包图像，包含最终50秒相机与摄影场景 |
+| `model/Maple_Swordswoman_A2.glb` | 235,497,176 | 真实A2交换模型，含人物/剑/底座；不含摄影地面或镜头 |
+| `A2_360_face_1080_50s.mp4` | 17,257,502 | 既有50秒正式视频，未重编码 |
 
-精确SHA256见[asset_inventory.json](../config/asset_inventory.json)。所有附件当前处于暂缓公开状态。原始灰模、彩色供体及A2不能互相替代；没有A2 GLB导出。
+ZIP只含一个.blend、一个GLB及必要说明/校验结果；不重复打包外部纹理、第二份摄影场景或MP4。原始灰模/彩色GLB是供体，不含最终A2修复；不混入最终资产包。母图和完整V4回滚留在本地。
+
+SHA256及实际ZIP体积见[asset_inventory.json](../config/asset_inventory.json)。原生场景是编辑权威；GLB严格角点法线等价检查未通过，按[验证范围](VALIDATION.md)作为有明确精度限制的查看/交换版本。

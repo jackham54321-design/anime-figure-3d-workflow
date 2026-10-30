@@ -1,9 +1,9 @@
 # GitHub存放方案
 
-Git只存README、WORKFLOW、原创脚本、参数与校验清单；没有模型、贴图、参考图、渲染图或视频。本轮不创建Release附件。
+Git只存README、WORKFLOW、原创脚本、参数与校验清单。大型资产使用Release附件，不使用付费LFS，不把.blend/GLB/MP4塞入Git历史。
 
-权利核验和资产脱敏完成后，计划把最终MP4、可编辑A2、独立摄影场景、纹理包及明确标注的原始供体作为Release附件。每个附件控制在2GiB以内；目前最大单个候选约249MB，无需付费LFS或无损分包。
+最小模型ZIP包含一个已打包贴图的A2 .blend（含最终摄影镜头）、真实A2 GLB和必要说明。最终MP4独立附上；不重复附第二份原生场景和外部纹理。每件附件小于2GiB，不需分包。当前文件已在本地准备，尚未上传Release。
 
-GitHub普通Git对超过50MiB的文件警告，并阻止超过100MiB的文件。因此.blend不可直接加入Git历史；较小MP4也优先随Release分发以避免二进制版本累积。参见[官方大文件说明](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)和[Release说明](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)，阅读日期2026-10-30。平台限额以后仍需重新核对。
+参见[GitHub大文件说明](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)和[Release说明](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases)，核对日期2026-10-30。未来平台限额应重新核对。
 
-正式附件清单必须记录SHA256、字节数、文件身份与授权状态。原始供体不重命名成A2；如果导出A2 GLB，必须从真实A2另存并核对世界空间三角面、UV、材质与纹理，不以文件打开成功代替等价验收。
+每份附件有字节数、SHA256、文件身份和验证范围。原始供体不冒充A2；纹理及几何相同不意味着所有法线浮点编码相同。

@@ -4,7 +4,7 @@
 
 历史原流程已在Blender 5.2.3 LTS、EEVEE、Metal/Apple M5、FFmpeg 9.0.1运行。独立编码/检验工具需要Python 3.11或更新版本；渲染工具使用Blender自带Python/NumPy。仓库不安装软件，不提供凭据或收费API客户端。`config/run_record.json`记录历史真实参数，云服务价格/版本可能改变。
 
-公开仓库目前不含模型、场景或媒体，因此克隆后不能直接重现人物。获得合法授权的发布资产后，按`config/asset_inventory.json`核验SHA256，把最终摄影场景放在`assets/A2_360_face_50s.blend`。真实A2和该摄影场景均已打包图片；本地源文件仍含私人绝对路径，公开资产需要独立脱敏副本再复开验收，不能直接上传当前.blend。
+模型和视频不进入Git历史。最小Release包已在本地准备，附件实际上传后可解压到`assets/Maple_Swordswoman_A2/`；校验SHA256并使用`model/Maple_Swordswoman_A2.blend`。该独立脱敏场景已打包7张纹理，同时保留最终50秒相机动画，无需作者私有目录。GLB只含模型，无摄影镜头；重现影片使用.blend。当前尚未上传Release附件。
 
 ## 新的可移植工具
 
@@ -12,10 +12,10 @@
 
 ```bash
 # 只读核对场景；不会渲染或保存.blend
-blender --background --factory-startup --disable-autoexec --python scripts/render_saved_scene.py -- --scene assets/A2_360_face_50s.blend --output output --inspect-only
+blender --background --factory-startup --disable-autoexec --python scripts/render_saved_scene.py -- --scene assets/Maple_Swordswoman_A2/model/Maple_Swordswoman_A2.blend --output output --inspect-only
 
 # 后续自愿执行，实际会渲染；本次仓库准备没有执行此行
-blender --background --factory-startup --disable-autoexec --python scripts/render_saved_scene.py -- --scene assets/A2_360_face_50s.blend --output output
+blender --background --factory-startup --disable-autoexec --python scripts/render_saved_scene.py -- --scene assets/Maple_Swordswoman_A2/model/Maple_Swordswoman_A2.blend --output output
 
 python3 scripts/encode_video.py --frames output/frames --output output/A2_360_face_1080_50s.mp4
 python3 scripts/verify_video.py output/A2_360_face_1080_50s.mp4
@@ -30,5 +30,5 @@ python3 scripts/verify_video.py output/A2_360_face_1080_50s.mp4
 - 原始云端任务需要用户自己的合法授权、登录、上传同意和逐笔费用确认；这里只记录流程，不自动提交。
 - V1–V4/A2修补是特定模型的语义面片/UV决策，不是通用自动修脸插件；不能套屏幕矩形或旧面索引到新模型。
 - 1500张PNG与重型诊断已按用户要求可恢复清理；公开文档只包含精简验收结果，没有重新恢复中间文件。
-- 现存原始GLB不是A2导出；A2跨格式交付需另做导出一致性验证。
-- 图片/视频/模型公开权限仍未确认；没有用临时公开下载站绕过限制。
+- 已完成真实A2 GLB导出与干净重导入；几何/UV/纹理一致，但法线有已记录精度差异，不能宣称所有属性逐位相等。
+- 当前官方中国API条款的付费输出分发依据与项目实际附件状态分开记录，见许可页；没有以公开临时托管替代正式交付。

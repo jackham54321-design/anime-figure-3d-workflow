@@ -94,6 +94,7 @@
       4096
     ]
   },
-  "A2_export_glb_exists": false,
-  "source_ids_policy": "Service task IDs, Library IDs, upload tokens, balances, account details and signed URLs are omitted from public records."
+  "A2_export_glb_exists": true,
+  "source_ids_policy": "Service task IDs, Library IDs, upload tokens, balances, account details and signed URLs are omitted from public records.",
+  "A2_export_validation": "Exact world-space triangle positions, UV and encoded images; declared normal precision limitation. Native blend authoritative."
 }
