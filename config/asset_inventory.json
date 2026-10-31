@@ -4,25 +4,33 @@
     "bytes": 339423441,
     "sha256": "c766c25e48b429244f73113d6f21041882c1e1113d7dbee0cb06229822bed1bd",
     "role": "authoritative editable A2 and camera scene",
-    "publication": "LOCAL_READY_NOT_UPLOADED"
+    "publication": "PUBLISHED",
+    "release_url": "https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/tag/a2-v1.0.0",
+    "included_in": "Maple_Swordswoman_A2_assets_v1.zip"
   },
   {
     "file": "model/Maple_Swordswoman_A2.glb",
     "bytes": 235497176,
     "sha256": "6eec3f04c2b6d7da55acd8e76fef89bd73a30536690613697b988b107ccfc98d",
     "role": "A2 viewing/exchange export; normal precision limitation",
-    "publication": "LOCAL_READY_NOT_UPLOADED"
+    "publication": "PUBLISHED",
+    "release_url": "https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/tag/a2-v1.0.0",
+    "included_in": "Maple_Swordswoman_A2_assets_v1.zip"
   },
   {
     "file": "Maple_Swordswoman_A2_assets_v1.zip",
     "bytes": 446058921,
     "sha256": "41a8c5bab4f798e7b3c80833f2edd3e7699c02131a9f54b086728f9eec59bf6b",
-    "publication": "LOCAL_READY_NOT_UPLOADED"
+    "publication": "PUBLISHED",
+    "release_url": "https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/tag/a2-v1.0.0",
+    "download_url": "https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/download/a2-v1.0.0/Maple_Swordswoman_A2_assets_v1.zip"
   },
   {
     "file": "A2_360_face_1080_50s.mp4",
     "bytes": 17257502,
     "sha256": "e05c361c2aa3e5b337529d21c9e51e99f2fa72e0d0100e75c4d470ad7b55fd54",
-    "publication": "LOCAL_READY_NOT_UPLOADED"
+    "publication": "PUBLISHED",
+    "release_url": "https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/tag/a2-v1.0.0",
+    "download_url": "https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/download/a2-v1.0.0/A2_360_face_1080_50s.mp4"
   }
 ]

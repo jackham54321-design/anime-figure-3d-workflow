@@ -1,0 +1,34 @@
+{
+  "release": "https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/tag/a2-v1.0.0",
+  "tag": "a2-v1.0.0",
+  "asset_preparation_commit": "cc3bf67bffac1dd9a068b2242b0f6095edb09f47",
+  "verified_date": "2026-10-31",
+  "verification": "full anonymous download, no Authorization or Cookie headers",
+  "assets": [
+    {
+      "file": "SHA256SUMS",
+      "bytes": 192,
+      "sha256": "4adb6256cf38df2d4526b9624e575396dbdc8654dcb12b4b93dd14e5cd8a70e1",
+      "download_url": "https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/download/a2-v1.0.0/SHA256SUMS",
+      "anonymous_http_status": 200,
+      "download_method": "complete single-stream anonymous download"
+    },
+    {
+      "file": "A2_360_face_1080_50s.mp4",
+      "bytes": 17257502,
+      "sha256": "e05c361c2aa3e5b337529d21c9e51e99f2fa72e0d0100e75c4d470ad7b55fd54",
+      "download_url": "https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/download/a2-v1.0.0/A2_360_face_1080_50s.mp4",
+      "anonymous_http_status": 200,
+      "download_method": "complete single-stream anonymous download"
+    },
+    {
+      "file": "Maple_Swordswoman_A2_assets_v1.zip",
+      "bytes": 446058921,
+      "sha256": "41a8c5bab4f798e7b3c80833f2edd3e7699c02131a9f54b086728f9eec59bf6b",
+      "download_url": "https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/download/a2-v1.0.0/Maple_Swordswoman_A2_assets_v1.zip",
+      "anonymous_http_status": 206,
+      "download_method": "All anonymous byte ranges concatenated in order, complete file SHA256 verified"
+    }
+  ],
+  "license": "Public download and viewing; no additional commercial or redistribution grant; no repository-wide MIT/CC license"
+}

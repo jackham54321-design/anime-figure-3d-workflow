@@ -2,7 +2,7 @@
 
 以原创枫叶女侠 P3 为案例，记录一次真实完成的单图几何生成、独立PBR贴图、可回滚局部修复、Blender摄影与视频交付流程。这里的“高精度”指保留高密度表面和原生纹理并实际检查，不等于已通过打印、绑定或游戏性能验收。
 
-**流程文档与离线复现工具已公开；真实A2脱敏资产包、GLB与50秒视频已在本地准备并核验，尚未上传Release。当前中国区官方条款支持付费用户输出分发，API密钥保密不等于生成模型保密。代码和资产未附MIT/CC开放许可证，不自称OSI意义的完整开源项目。**
+**工作流、离线脚本、真实A2资产包与50秒展示视频现已公开下载。资产包包含可编辑Blender场景和真实A2 GLB，贴图完整内嵌。代码和资产未附MIT/CC开放许可证；公开下载不额外授予商业使用或再分发许可，不自称OSI意义的完整开源项目。**
 
 ## 已完成什么
 
@@ -26,6 +26,14 @@
 
 ## 媒体与模型附件
 
-最小模型包包含一个可编辑A2 .blend（7张纹理已打包，含最终镜头）和从真实A2导出的GLB；MP4单独分发，不重复打包摄影场景或纹理。详情见[资产库存](docs/ASSETS.md)和[法线精度等验证边界](docs/VALIDATION.md)。附件尚未上传；将通过Releases分发，不把大型文件写进Git历史。
+最小模型包包含一个可编辑A2 .blend（7张纹理已打包，含最终镜头）和从真实A2导出的GLB；MP4单独分发，不重复打包摄影场景或纹理。详情见[资产库存](docs/ASSETS.md)和[法线精度等验证边界](docs/VALIDATION.md)。附件已通过[GitHub Release](https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/tag/a2-v1.0.0)发布，不把大型文件写进Git历史。
+
+| 下载 | 大小 | 内容 |
+|---|---:|---|
+| [A2模型包](https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/download/a2-v1.0.0/Maple_Swordswoman_A2_assets_v1.zip) | 446,058,921 B | 一个.blend、真实A2 GLB、打包贴图和使用/验证说明 |
+| [50秒展示视频](https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/download/a2-v1.0.0/A2_360_face_1080_50s.mp4) | 17,257,502 B | 1080×1080、30fps、全身360°与面部展示，无音乐 |
+| [SHA256清单](https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/download/a2-v1.0.0/SHA256SUMS) | 192 B | 下载后的完整性校验 |
+
+三份附件已在未登录、无凭据的HTTP请求中完整下载，大小及SHA256均匹配。详见[发布清单](config/release_assets.json)。
 
 AI参与声明：几何与初始PBR纹理由Tripo AI生成；流程整理、Blender脚本和局部检查由人与AI助手协作完成。母图由用户指定为原创角色参考，摄影环境在本地创建。公开下载不额外授予商用/再分发许可，详见许可说明。

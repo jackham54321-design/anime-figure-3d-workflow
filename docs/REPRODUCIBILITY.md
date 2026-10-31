@@ -4,7 +4,7 @@
 
 历史原流程已在Blender 5.2.3 LTS、EEVEE、Metal/Apple M5、FFmpeg 9.0.1运行。独立编码/检验工具需要Python 3.11或更新版本；渲染工具使用Blender自带Python/NumPy。仓库不安装软件，不提供凭据或收费API客户端。`config/run_record.json`记录历史真实参数，云服务价格/版本可能改变。
 
-模型和视频不进入Git历史。最小Release包已在本地准备，附件实际上传后可解压到`assets/Maple_Swordswoman_A2/`；校验SHA256并使用`model/Maple_Swordswoman_A2.blend`。该独立脱敏场景已打包7张纹理，同时保留最终50秒相机动画，无需作者私有目录。GLB只含模型，无摄影镜头；重现影片使用.blend。当前尚未上传Release附件。
+模型和视频不进入Git历史。从[Release](https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/tag/a2-v1.0.0)下载最小资产包后，解压到`assets/Maple_Swordswoman_A2/`；校验SHA256并使用`model/Maple_Swordswoman_A2.blend`。该独立脱敏场景已打包7张纹理，同时保留最终50秒相机动画，无需作者私有目录。GLB只含模型，无摄影镜头；重现影片使用.blend。三份Release附件已完成匿名下载及大小、SHA256核验。
 
 ## 新的可移植工具
 

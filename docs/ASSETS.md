@@ -1,6 +1,6 @@
 # A2发布资产
 
-已从真实已接受A2生成独立脱敏副本和GLB，完成复开、干净重导入、几何/UV/贴图及实际渲染对照。附件在本地准备完成，尚未上传Release；Git历史只含文档与源码。
+已从真实已接受A2生成独立脱敏副本和GLB，完成复开、干净重导入、几何/UV/贴图及实际渲染对照。附件已在[Release](https://github.com/jackham54321-design/anime-figure-3d-workflow/releases/tag/a2-v1.0.0)公开并经匿名下载校验；Git历史只含文档与源码。
 
 | 文件 | 字节 | 用途 |
 |---|---:|---|
